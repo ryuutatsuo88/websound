@@ -4,7 +4,9 @@
      init : function( options ) {
 		
 		return this.each(function() {  
-			var settings = {};
+			var settings = {
+				flash : function () {}
+			};
 			
 			var defaults = {
 				isTouchDevice : 'ontouchstart' in document.documentElement
@@ -45,8 +47,6 @@
 				}
 			};
 			
-			
-      		
       		var found = false; 	
 			for (var i = 0; i <= src.length - 1; i++) {
 				if (found == false) {
@@ -58,6 +58,7 @@
 			}
 			if (found == false) {
 				//flash fallback
+				settings.flash($this, src, effect);
 			}
       			
      	});

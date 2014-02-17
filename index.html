@@ -8,12 +8,15 @@
 		<script type="text/javascript" src="js/websound.js"></script>	
 		<script type="text/javascript">			
 		$(document).ready(function () {	
-			$('[data-audio-src]').webSound();
+			$('[data-audio-src]').webSound({
+				flash : function (node, srcArray, effect) {
+				}
+			});
 		});	
 		</script>
 	</head>
 	<body>
 		<button data-audio-src="audio.mp3,audio.wav,audio.ogg" data-audio-effect="click">Button 1</button>
-		<button data-audio-src="audio.ogg,audio.mp3" data-audio-effect="click">Button 2</button>
+		<button data-audio-src="audio.mp3,audio.wav,audio.ogg" data-audio-effect="over">Button 2</button>
 	</body>
 </html>
