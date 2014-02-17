@@ -1,0 +1,38 @@
+{
+    "name": "webSound",
+    "title": "jQuery webSound",
+    "description": "WebSound is a jQuery plugin that will add sound effects to your website.",
+    "keywords": [
+        "html5",
+        "audio",
+        "wav",
+        "ogg",
+        "mp3",
+        "sound",
+        "effect"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Rijad Dizdarevic",
+        "url": "http://rijaddizdarevic.com/"
+    },
+    "maintainers": [
+        {
+            "name": "Rijad Dizdarevic",
+            "url": "http://rijaddizdarevic.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/ryuutatsuo88/websound/blob/master/MIT-LICENSE.TXT"
+        }
+    ],
+    "bugs": "https://github.com/ryuutatsuo88/websound/issues",
+    "homepage": "https://github.com/ryuutatsuo88/websound",
+    "docs": "https://github.com/ryuutatsuo88/websound",
+    "download": "https://github.com/ryuutatsuo88/websound",
+    "dependencies": {
+        "jquery": ">=1.8.2"
+    }
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>WebSound</title>
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>	
+		<script type="text/javascript" src="js/websound.js"></script>	
+		<script type="text/javascript">			
+		$(document).ready(function () {	
+			$('[data-audio-src]').webSound();
+		});	
+		</script>
+	</head>
+	<body>
+		<button data-audio-src="audio.mp3,audio.wav,audio.ogg" data-audio-effect="click">Button 1</button>
+		<button data-audio-src="audio.ogg,audio.mp3" data-audio-effect="click">Button 2</button>
+	</body>
+</html>
